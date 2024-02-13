@@ -105,6 +105,7 @@
 * `DATABASE_NAME`: Name of the database in [mongoDB](https://www.mongodb.com).
 * `LOG_CHANNEL` : A channel to log the activities of bot. Make sure bot is an admin in the channel.
 * `FDQN`: Add Your Deploy Server App url Must Add this Stream Working Properly.
+*  Also add your `FQDN` in  line no. 105, 106, 121, and 123 of [info.py](https://github.com/blob/main/info.py) so that streaming feature will work properly.
 ### Optional Variables
 * `PICS`: Telegraph links of images to show in start message.( Multiple images can be used separated by space )
 * `FILE_STORE_CHANNEL`: Channel from were file store links of posts should be made.Separate multiple IDs by space
